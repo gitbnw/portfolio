@@ -1,10 +1,10 @@
-
+---
 layout: post
 title: Quota
 thumbnail-path: "img/quota.png"
 short-description: Quota is a web app for tracking stock performance.
 
-
+---
 {:.center}
 ![]({{ site.baseurl }}/img/quota.png)
 

@@ -1,12 +1,12 @@
 
 layout: post
 title: Quota
-thumbnail-path: "img/blocflix.png"
+thumbnail-path: "img/quota.png"
 short-description: Quota is a web app for tracking stock performance.
 
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/quota.png)
 
 ## Explanation
 This was my first self-made project using Ruby on Rails 4.  My goal was to create a functional web app that could lookup live financial market data and allow users to track and save that data. 

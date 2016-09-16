@@ -1,10 +1,10 @@
----
+
 layout: post
 title: Quota
 thumbnail-path: "img/quota.png"
 short-description: Quota is a web app for tracking stock performance.
 
----
+
 {:.center}
 ![]({{ site.baseurl }}/img/quota.png)
 
@@ -21,12 +21,18 @@ Using the gems - foreman, upstart, and resque - I created tasks that were saved 
 
 ## Results
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
+The good
+    * TDD / Rspec 
+    * Devise for user registration / authentication
+    * some basic auotmation to "test drive" app with temporary profile and data
+    * coffeescript  C|__|
+    * data driven html 5 gradients
+    * models 
+    
+The bad
+    * Very difficult to find sources of free reliable market data.  And when your app is built around using that data, you can get trapped in the "garbage in, garbage out" cycle.  
+    * I pushed myself to try to make this more object oriented then any of my RoR attempts.  I found myself getting tripped up in naming and structuring methods in a way that would be friendly to reuse.  
+    
 ## Conclusion
 
 Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.

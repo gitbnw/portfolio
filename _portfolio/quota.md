@@ -21,17 +21,17 @@ Using the gems - foreman, upstart, and resque - I created tasks that were saved 
 
 ## Results
 
-The good
-    * TDD / Rspec 
-    * Devise for user registration / authentication
-    * some basic auotmation to "test drive" app with temporary profile and data
-    * coffeescript  C|__|
-    * data driven html 5 gradients
-    * models 
+<!--The good-->
+<!--    * TDD / Rspec -->
+<!--    * Devise for user registration / authentication-->
+<!--    * some basic auotmation to "test drive" app with temporary profile and data-->
+<!--    * coffeescript  C|__|-->
+<!--    * data driven html 5 gradients-->
+<!--    * models -->
     
-The bad
-    * Very difficult to find sources of free reliable market data.  And when your app is built around using that data, you can get trapped in the "garbage in, garbage out" cycle.  
-    * I pushed myself to try to make this more object oriented then any of my RoR attempts.  I found myself getting tripped up in naming and structuring methods in a way that would be friendly to reuse.  
+<!--The bad-->
+<!--    * Very difficult to find sources of free reliable market data.  And when your app is built around using that data, you can get trapped in the "garbage in, garbage out" cycle.  -->
+<!--    * I pushed myself to try to make this more object oriented then any of my RoR attempts.  I found myself getting tripped up in naming and structuring methods in a way that would be friendly to reuse.  -->
     
 ## Conclusion
 

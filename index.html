@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-
+{% assign ordered_projects = site.portfolio | sort: "order" %}
 <div class="home">
 
   <div class="work">
     <h2>My Work</h2>
-    {% for project in site.portfolio limit:3 %}
+    {% for project in ordered_projects %}
     <div class="project">
       <div class="project-thumb">
         <a href="{{ project.url | prepend: site.baseurl }}">
@@ -21,31 +21,31 @@ layout: default
     {% endfor %}
   </div>
 
-  <div class="posts">
-    <h2 class="post-header">My Posts</h2>
-    <ul>
-      {% for post in paginator.posts %}
-      <li class="post-teaser">
-        <header>
-          <h3>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title }}
-            </a>
-          </h3>
-          <p class="meta">
-            {{ post.date | date: "%B %-d, %Y" }}
-          </p>
-        </header>
-        <div class="excerpt">
-          {{ post.excerpt | | strip_html | strip_newlines | truncate: 120 }}
-        </div>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          {{ site.theme_settings.str_continue_reading }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+  <!--<div class="posts">-->
+  <!--  <h2 class="post-header">My Posts</h2>-->
+  <!--  <ul>-->
+  <!--    {% for post in paginator.posts %}-->
+  <!--    <li class="post-teaser">-->
+  <!--      <header>-->
+  <!--        <h3>-->
+  <!--          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">-->
+  <!--            {{ post.title }}-->
+  <!--          </a>-->
+  <!--        </h3>-->
+  <!--        <p class="meta">-->
+  <!--          {{ post.date | date: "%B %-d, %Y" }}-->
+  <!--        </p>-->
+  <!--      </header>-->
+  <!--      <div class="excerpt">-->
+  <!--        {{ post.excerpt | | strip_html | strip_newlines | truncate: 120 }}-->
+  <!--      </div>-->
+  <!--      <a href="{{ post.url | prepend: site.baseurl }}">-->
+  <!--        {{ site.theme_settings.str_continue_reading }}-->
+  <!--      </a>-->
+  <!--    </li>-->
+  <!--    {% endfor %}-->
+  <!--  </ul>-->
+  <!--</div>-->
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">

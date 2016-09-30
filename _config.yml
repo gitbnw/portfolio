@@ -1,18 +1,22 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog/ (optional)
-url: "https://gitbnw.github.io" # the base hostname & protocol for your site
+#baseurl: "/portfolio" # the subpath of your site, e.g. /blog/ (optional)
+#url: "https://gitbnw.github.io" # the base hostname & protocol for your site
+url: "portfolio--gitbnw.c9users.io"
+
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Byron Weiss # Your name will go here
+  avatar: avatar.png
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
      <h1>Your Friendly Neighborhood Web-Slinger</h1>
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image:
+  header_text_feature_image: img/background-2.jpg
+  
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 

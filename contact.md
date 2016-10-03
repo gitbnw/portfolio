@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+feature-img: "img/typewriter-orange.png"
 ---
 
 <form action="https://getsimpleform.com/messages?form_api_token=b618375a9b7822a1e4a86d001559dbfc" method="post">

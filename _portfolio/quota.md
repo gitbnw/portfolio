@@ -107,3 +107,6 @@ The less good
 > A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations. --Paul Valéry
 
 This will certainly be the case in a less dramatic fashion for a relatively new developer such as myself.  The rate of new material being learned is outstripping that of your production.  It's not neccessarily bad but it makes completing a project, especially one that was self-assigned, a bit of a perpetual mouse wheel. 
+
+## Links
+[github](https://github.com/gitbnw/quota)

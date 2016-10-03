@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
-baseurl: "/" # the subpath of your site, e.g. /blog/ (optional)
-# url: "https://gitbnw.github.io" # the base hostname & protocol for your site
-url: "portfolio--gitbnw.c9users.io"
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/ (optional)
+url: "https://gitbnw.github.io" # the base hostname & protocol for your site
+# url: "portfolio--gitbnw.c9users.io"
 
 
 # THEME-SPECIFIC CONFIGURATION

@@ -14,7 +14,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      <h1>Your Friendly Neighborhood Web-Slinger</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <p>I'm a web developer interested in Rails, Angular, and bots.</p>
   header_text_feature_image: img/background-2.jpg
   
   footer_text: >

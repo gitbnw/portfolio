@@ -2,7 +2,7 @@
 layout: post
 title: PD Fleet Status
 thumbnail-path: "img/pdfs.png"
-short-description: A web application for the police department built on the <a href="https://www.sencha.com/products/extjs/#overview">ExtJS</a> framework and Coldfusion.
+short-description: A web application built for a police department on the <a href="https://www.sencha.com/products/extjs/#overview">ExtJS</a> framework and Coldfusion.
 order: 4
 ---
 
@@ -10,7 +10,7 @@ order: 4
 ![]({{ site.baseurl }}/img/pdfs.png)
 
 ## Explanation
-I was tasked upon entering my current job with converting a previously existing MS Acess application into a web based one.  
+I was tasked upon entering my current job with converting a previously existing MS Access application into a web based one.  
 
 ## Challenge
 The application's primary purpose was inventory management as applied to the police department's fleet of vehicles.  This meant tracking the vehicle's availability in way that police supervisors could assign avalible vehicles out for each rolling shift of officers.

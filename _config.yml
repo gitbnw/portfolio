@@ -68,6 +68,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+  bloc_projects:
+    output: true
+    permalink: /bloc_projects/:path/  
 
 # BUILD SETTINGS
 markdown: kramdown

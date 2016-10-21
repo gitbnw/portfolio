@@ -71,7 +71,10 @@ collections:
     permalink: /portfolio/:path/
   bloc_projects:
     output: true
-    permalink: /bloc_projects/:path/  
+    permalink: /bloc_projects/:path/ 
+  inprog_projects:
+    output: true
+    permalink: /inprog_projects/:path/     
 
 # BUILD SETTINGS
 markdown: kramdown

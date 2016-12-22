@@ -3,7 +3,7 @@ layout: post
 title: Quota
 thumbnail-path: "img/quota.png"
 short-description: Quota is a web app for tracking stock performance built on <a href="https://github.com/rails/rails">Rails</a> with <a href="https://github.com/resque/resque">Resque</a>, <a href="http://redis.io/">Redis</a>, and <a href="https://www.postgresql.org/">postgres</a>.  <br>Deployed via <a href="https://github.com/capistrano/capistrano">Capistrano</a> to Digital Ocean.
-order: 1
+order: 2
 ---
 
 {:.center}
